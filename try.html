@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="description" content="This is for an assignment" />
+    <meta name="keywords" content="assignment,html,meta" />
+    <meta name="author" content="Balasurya" />
+    <title>Assignment Page</title>
+  </head>
+  <body>
+    <h1>My HTML-only website</h1>
+    <p><b>Simple site built using only HTML - tags no CSS</b></p>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About us</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <h2 id="home">Welcome</h2>
+    <p>
+      This page demonstrates layout and content using only HTML tags. Use
+      headings, lists, tables and forms to present information without css
+    </p>
+    <h2 id="about">About this page</h2>
+    <p>
+      The page uses semantic tags:&lt header &gt, &lt nav &gt, &lt main &gt, &lt
+      section &gt, &lt article &gt, &lt aside &gt, &lt footer &gt
+    </p>
+    <h3>Key Points</h3>
+    <ol>
+      <li>Readable structures for users and search engines</li>
+      <li>No external styles are used only default browser styles</li>
+      <li>Uses semantic HTML5 elements for better structure</li>
+    </ol>
+    <h2 id="features">Features</h2>
+    <dl>
+      <dt>Semantic layout</dt>
+      <dd>Clear structure using sectioning elements</dd>
+      <dt>Accessible navigation</dt>
+      <dd>Keyboard and screen-reader friendly links and headings</dd>
+      <dt>Forms and tables</dt>
+      <dd>Collect input and show tabular data using plain HTML</dd>
+    </dl>
+    <table border="1">
+    <legend>Product List</legend>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Category</th>
+          <th>Price(INR)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Notebook</td>
+          <td>Stationery</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Pen</td>
+          <td>Stationery</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Backpack</td>
+          <td>Accessories</td>
+          <td>800</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Quick links</h3>
+    <ul>
+      <li><a href="#features">See features</a></li>
+      <li><a href="#contact">Contact us</a></li>
+      <li><a href="#about">More about this demo</a></li>
+    </ul>
+    <h2 id="contact">Contact us</h2>
+    <form>
+      <fieldset>
+        <legend>Contact Form</legend>
+        <label for="fullname">Name:</label>
+        <input type="text" id="fullname" name="fullname" required />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br /><br />
+        <label for="message">Message:</label>
+        <br />
+        <input type="text" id="message" name="message" required />
+        <br /><br />
+        <label for="prefered_contact">Preferred Contact Method:</label>
+        <br />
+        <input
+          type="radio"
+          id="emailcontact"
+          name="contactmethod"
+          value="email"
+        />
+        <label for="emailcontact">Email</label>
+        <br />
+        <input
+          type="radio"
+          id="phonecontact"
+          name="contactmethod"
+          value="phone"
+        />
+        <label for="phonecontact">Phone</label>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+    <footer>
+      <p>&copy; All rights are reserved</p>
+    </footer>
+  </body>
+</html>
